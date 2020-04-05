@@ -51,7 +51,7 @@ public class NewEmptyJUnitTest {
     }
     @Test
     public void testSubtract(){
-      double result=c.add(40, 20);
+      double result=c.subtract(40, 20);
       assertEquals(20, result,0.0);  
     }
 }
