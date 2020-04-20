@@ -17,9 +17,7 @@ node{
     }
 
     stage('Maven build') {
-        tools {
-             jdk "Default JDK"
-         }
+        jdk "Default JDK"
         buildInfo = rtMaven.run pom: 'pom.xml', goals: 'clean install'
     }
 }
