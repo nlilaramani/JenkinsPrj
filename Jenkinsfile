@@ -1,7 +1,7 @@
 #!groovy
 node{
     // Get Artifactory server instance, defined in the Artifactory Plugin administration page.
-    def server = Artifactory.server "DESKTOP-5A6A5PN"
+    def server = Artifactory.server "art-1"
     // Create an Artifactory Maven instance.
     def rtMaven = Artifactory.newMavenBuild()
     def buildInfo
