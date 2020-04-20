@@ -18,7 +18,7 @@ node{
 
     stage('Maven build') {
         jdk "Default JDK"
-        env.JAVA_HOME="C:\Program Files\Java\jdk1.8.0_111"
+        env.JAVA_HOME="C:/Program Files/Java/jdk1.8.0_111"
         buildInfo = rtMaven.run pom: 'pom.xml', goals: 'clean install'
     }
 }
