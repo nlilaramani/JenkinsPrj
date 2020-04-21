@@ -54,4 +54,9 @@ public class NewEmptyJUnitTest {
       double result=c.subtract(40, 20);
       assertEquals(20, result,0.0);  
     }
+    @Test
+    public void testMultiply(){
+      double result=c.multiply(40, 20);
+      assertEquals(700, result,0.0);  
+    }
 }
