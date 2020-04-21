@@ -23,6 +23,10 @@ public class Calculator {
     public double multiply(double n1,double n2){
         return n1*n2;
     }
+    
+    public double divide(double n1,double n2){
+        return n1/n2;
+    }
 
     /**
      * @param args the command line arguments
