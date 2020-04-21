@@ -57,6 +57,6 @@ public class NewEmptyJUnitTest {
     @Test
     public void testMultiply(){
       double result=c.multiply(40, 20);
-      assertEquals(700, result,0.0);  
+      assertEquals(800, result,0.0);  
     }
 }
